@@ -17,7 +17,7 @@ function Home(){
     },[])
 
     const handleEdit = (id)=>{
-        axios.put('http://localhost:3001/update/'+id)
+        axios.put(https://back1-mu.vercel.app/update/'+id)
         .then(result =>{location.reload()
 
         })
@@ -25,7 +25,7 @@ function Home(){
     } 
     
     const handleDelete = (id)=>{
-        axios.delete('http://localhost:3001/delete/'+id)
+        axios.delete('https://back1-mu.vercel.app/delete/'+id)
         .then(result =>{location.reload()
             
         })
