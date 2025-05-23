@@ -17,7 +17,7 @@ function Home(){
     },[])
 
     const handleEdit = (id)=>{
-        axios.put(https://back1-mu.vercel.app/update/'+id)
+        axios.put('https://back1-mu.vercel.app/update/'+id)
         .then(result =>{location.reload()
 
         })
