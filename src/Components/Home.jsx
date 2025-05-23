@@ -11,7 +11,7 @@ function Home(){
     const [todos,setTodos] = useState([])
 
     useEffect(() =>{
-        axios.get('http://localhost:3001/get')
+        axios.get('https://back1-mu.vercel.app/get')
         .then(result =>setTodos(result.data))
         .catch(err=> console.log(err))
     },[])
